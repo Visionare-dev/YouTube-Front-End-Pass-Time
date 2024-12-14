@@ -1,0 +1,209 @@
+.thumb{
+  width:100%;
+}
+
+
+
+@media (min-width: 680px) {
+  .TechHead{
+    font-weight: 500;
+    font-size: 15.5px;
+    line-height: 22.5px;
+  }
+}
+
+@media (min-width: 760px) {
+  .TechHead{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+  }
+}
+
+@media (min-width: 870px) {
+  .TechHead{
+    font-weight: 500;
+    font-size: 16.5px;
+    line-height: 23.5px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .TechHead{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+  }
+}
+
+.thumb:hover,
+.TechHead:hover,
+.authorImage,
+.TechAuthor{
+  width:100%;
+  cursor: pointer;
+}
+
+.TechHead{
+font-weight: 500;
+font-size: 15px;
+/* width: 250px; */
+line-height: 22px;
+margin-left: 10px;
+margin-bottom: 10px;
+
+}
+
+.authorImage{
+border-radius: 36px;
+width: 100%;
+display: inline-block;
+
+}
+
+.TechAuthor, 
+.viewdate{
+font-size: 12px;
+margin-bottom: 5px;
+color: rgb(96, 96, 96);
+margin-left: 10px;
+
+}
+
+@media (min-width: 1000px) {
+  .TechAuthor, 
+  .viewdate{
+  font-size: 14px;
+  }
+}
+
+
+
+/* .FirstPreviewDiv, 
+.SecondPreviewDiv{
+width: 320px;
+display: inline-block;
+vertical-align: top;
+margin-right: 20px;
+
+} */
+
+.vidinfo{
+  display: inline-block;
+  width: 270px;
+}
+
+.prof{
+  display: inline-block;
+  width: 36px;
+  vertical-align: top;
+}
+
+.thumbrow{
+margin-bottom: 9px;
+position: relative;
+}
+
+.Vidinfogrid{
+  display: grid;
+  grid-template-columns: 40px 1fr;
+}
+
+.Pagecontainer{
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 35px;
+}
+
+@media (max-width: 750px) {
+  .Pagecontainer {
+    grid-template-columns: 1fr 1fr;
+
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px){
+  .Pagecontainer {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+}
+
+@media (min-width: 1000px) {
+  .Pagecontainer {
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+
+  }
+}
+
+
+.video-time{
+  background-color: black;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+  padding: 3px 2px;
+  border-radius: 3px;
+}
+
+
+/* .Trial{
+  width: 130px;
+  display: inline-block;
+  border-width: 2px;
+  
+}
+.stephen{
+  font-weight: bold;
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+
+
+.friends{
+  font-size: 13px;
+  margin-top: 2px;
+  margin-bottom: 8px;
+
+}
+
+.add{
+  color: white;
+  background: rgb(70, 120, 245);
+  border-radius: 4px;
+  border: none;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.add:hover{
+  color: white;
+  background: rgb(70, 120, 245);
+  border-radius: 4px;
+  border: none;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  box-shadow: 1px 1px 2px grey;
+}
+
+.over{
+  width: 130px;
+  display: inline-block;
+  margin-top: 4px;
+  border-width: 1px;
+  border: none;
+  box-shadow: 2px 2px 7px rgb(192, 191, 191);
+} */
